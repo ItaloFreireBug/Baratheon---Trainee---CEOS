@@ -7,42 +7,37 @@ html, body{
 
 nav{
 	position: fixed;
-	top: 0;
+	top: 5;
 	left: 0;
 	width: 100%;
-	height: 60px;
-	padding: 10px 100px;
+	height: 70px;
+	padding: 5px 10px;
 	box-sizing: border-box;
 	transition: .3s;
 	background-color:#000000;
-}
-
-nav.black{
-	background: black;
-	height: 100px;
-	padding: 10px 100px;
+	border-radius:20px 20px 20px 20px ;
 }
 
 nav .logo{
-	padding: 28px 0px;
+	padding: 20px 0px;
 	height: 80px;
 	float: left;
 	font-size: 24px;
 	transition: .3s;
 	color:#FFFFFF;
+
+
 }
 
-nav.black .logo{
-	color: white;
-}
 
 nav ul{
 	list-style: none;
 	float: right;
 	margin: 0;
-	padding: 0;
+	padding: 50;
 	display: flex;
 }
+
 
 nav ul li{
 	list-style: none;
@@ -52,15 +47,12 @@ nav ul li{
 nav ul li a{
 	line-height: 80px;
 	color: #FFFFFF;
-	padding: 12px 30px;
+	padding: 30px 30px;
 	text-decoration: none;
 	transition: .3s;
 	font-size: 16px;
 }
 
-nav.black ul li a{
-	color: white;
-}
 
 nav ul li a:focus{
 	outline: none;
@@ -69,7 +61,7 @@ nav ul li a:focus{
 section.sec1{
 	width: 100%;
 	height: 100vh;
-	background: url(Imagens/House-Baratheon-1.jpg);
+	background: url(http://www.charmsaddict.com/wp-content/uploads/2015/05/game-of-thrones-baratheon-wallpaper.jpg);
 	background-size: cover;
 	background-position: center;
 }
@@ -81,19 +73,6 @@ section.sec1{
       line-height: 30px;
       text-align: center;
 }
-.menu-icon {
-      line-height: 60px;
-      width: 100%;
-      background: #000;
-      text-align: right;
-      box-sizing: border-box;
-      padding: 15px 24px;
-      cursor: pointer;
-      color: #fff;
-      display: none;
-}
-
-
 
 
 /*CORPO DO SITE*/
@@ -135,66 +114,6 @@ h2{
 }
 
 
-@media(max-width: 786px) {
- 
-      .logo {
-            position: fixed;
-            top: 0;
-            margin-top: 16px;
-      }
- 
-      nav ul {
-            max-height: 0px;
-            background: #000;
-      }
- 
-      nav.black ul {
-            background: #000;
-      }
- 
-      .showing {
-            max-height: 34em;
-      }
- 
-      nav ul li {
-            box-sizing: border-box;
-            width: 100%;
-            padding: 24px;
-            text-align: center;
-      }
- 
-      .menu-icon {
-            display: block;
-      }
-      
-      #equipe{
-      	float: center;
-      }
-      .team{
-      	position: center;
-      }
-}
-
-/* transforms e transitions */
-.trans {
-  margin: 100px;
-}
-/* pode modificar o tamnho se quiser foi so um debug */
-.box {
-  background: steelblue;
-  border-radius: 5px;
-  display: inline-block;
-  height: 250px;
-  margin: 20px;
-  transition:width 2s, transform 1s;
-  width: 160px;
-}
-	/* um config pra cada box  */
-  .trans:hover .box1 {
-  transform: scale(1.4);
-  width: 300px;
-}
-
 input {
 	display: block;
 }
@@ -215,4 +134,14 @@ footer{
 	padding-top: 15px;
 	padding-bottom: 15px;
 	text-align: center;
+}
+
+footer{
+	background-color: black;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	font-family: roboto;
+	font-size: 10px;
 }
