@@ -195,6 +195,18 @@ h2{
   width: 300px;
 }
 
+input {
+	display: block;
+}
+
+textarea {
+	display: block
+}
+
+h1 .contato {
+	display: block;
+	float: left;
+}
 
 /*FOOTER*/
 footer{
