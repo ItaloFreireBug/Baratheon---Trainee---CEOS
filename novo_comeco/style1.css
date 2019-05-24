@@ -72,19 +72,20 @@ section.sec1{
       font-size: 20px;
       line-height: 30px;
       text-align: center;
+      display: block;
 }
 
 
 /*CORPO DO SITE*/
 h3{
 	text-align: center;
-	font-size: 24px;
+	font-size: 18px;
 	padding-top: 100px;
 }
 
 h2{
 	text-align: center;
-	font-size: 18px;
+	font-size: 24px;
 }
 
 .membro{
@@ -96,11 +97,6 @@ h2{
 	float: left;
 }
 
-.membro p{
-	font-size: 14px;
-	max-width: 250px;
-}
-
 .membro h3{
 	background-color: black;
 	color: white;
@@ -108,32 +104,28 @@ h2{
 	margin: 0 -6px;
 }
 
-.equipe{
-	width: 990px;
-	margin: 0 auto;
-}
-
-
-input {
+#equipe {
 	display: block;
+	width: 100%;
+	margin: 0px;
 }
 
-textarea {
-	display: block
+
+#servicos ul li{
+	text-align:left;
 }
 
-h1 .contato {
+#servicos h3 {
+	text-align: left;
+}
+
+#contato h2{
 	display: block;
 	float: left;
 }
 
-/*FOOTER*/
-footer{
-	background-color: black;
-	color: white;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	text-align: center;
+input, textarea {
+	display: block;
 }
 
 footer{
